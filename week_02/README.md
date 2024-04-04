@@ -83,3 +83,40 @@ These approaches are useful for handling datasets with label absence and can sig
 
 
 The chapter presents a series of strategies and considerations to ensure data quality in machine learning systems. From the selection of representative samples to tracking the origin of data, each discussed topic highlights the need for careful and systematic approaches in data handling. The understanding and proper application of these concepts not only improve model performance but also contribute to the reliability and interpretability of the results obtained. By implementing the practices suggested in this chapter, machine learning professionals will be better equipped to deal with the inherent challenges in data preparation and manipulation, thus ensuring the construction of more effective and reliable systems.
+
+# Task 3 - MLOps Zoomcamp Exploration
+
+**Objective**: Explore and provide insights on Week 2 of the MLOps Zoomcamp course available on [Github](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/02-experiment-tracking)
+
+<p align="center">
+  <a href="https://github.com/DataTalksClub/mlops-zoomcamp/tree/main" target="_blank">
+    <img src="https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/images/IMG_20230323_134059_927.png">
+  </a> Source: [MLOps Zoomcamp (2024)](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main)
+</p>
+
+The course begins by presenting some important concepts within the area of Machine Learning Operations (MLOps) such as experiments and artifacts. Next, he delves deeper into these concepts, highlighting their importance and presenting the MLFlow tool. MLflow is an open-source platform for managing the end-to-end machine learning lifecycle. It's designed to help organizations streamline their machine learning workflows, from experimentation to production deployment, by providing tools for experiment tracking, model management, and collaboration. Below are insights into each aspect of MLflow:
+
+1. **Experiment Tracking**:
+   - MLflow allows users to track experiments by recording parameters, metrics, and output files for each run.
+   - It provides a centralized location for storing and comparing experiments, making it easier to understand the impact of different parameters and techniques.
+   - Experiment tracking enables reproducibility by capturing the environment and dependencies of each run.
+
+2. **Model Management**:
+   - MLflow provides tools for managing and versioning machine learning models.
+   - Users can easily package their models as reusable artifacts and deploy them in various environments.
+   - Model management features facilitate collaboration among data scientists and engineers by enabling them to share and reproduce models.
+
+3. **Model Registry**:
+   - MLflow's Model Registry is a feature for managing the lifecycle of machine learning models.
+   - It allows users to register, version, and store models along with their metadata and lineage information.
+   - It facilitates governance and compliance by providing audit trails and access controls.
+
+4. **Limitations**:
+   - While MLflow offers a comprehensive set of features for managing the machine learning lifecycle, it may not cover all use cases or integrate seamlessly with every tool or environment.
+   - Users may encounter challenges when deploying models to certain production environments or integrating MLflow with existing infrastructure.
+   - MLflow's Model Registry is relatively new and may lack some advanced features found in more mature model management platforms.
+
+5. **Benefits**:
+   - MLflow simplifies the process of developing, training, and deploying machine learning models by providing a unified platform with built-in experiment tracking, model management, and collaboration tools.
+   - It promotes best practices for reproducibility and collaboration by capturing the complete lifecycle of machine learning projects, from data preparation to model deployment.
+   - MLflow is an open-source project with a large and active community, which means users can benefit from ongoing development, contributions, and support from the community.
