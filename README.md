@@ -12,6 +12,7 @@ This repository aims to contain the activities carried out in the subject PPGEEC
 ### Week 2: 
 - **Activity:** Extract and summarize 10 crucial insights about Training Data from Chapter 4 of the book _Designing Machine Learning Systems_, by Chip Huyen. 
 - **Activity:** Critically analyze the article [On the Societal Impact of Open Foundation Models](https://arxiv.org/pdf/2403.07918.pdf) from Arxiv, deliberating on the sharing of models in ML, examining both the favorable aspects and the drawbacks.
+- **Activity**: Explore and provide insights on Week 2 of the MLOps Zoomcamp course available on [Github](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/02-experiment-tracking)
 - **Resources:**
   - [Summary activity](./week_02/)
 

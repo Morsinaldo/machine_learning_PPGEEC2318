@@ -1,20 +1,24 @@
-# Task 1 - Article Analysis
+# 📄 Task 1 - Article Analysis
 
 **Objective**: Critically analyze the article from Arxiv https://arxiv.org/pdf/2403.07918.pdf, deliberating on the sharing of models in ML, examining both the favorable aspects and the drawbacks.
 
-## Positive
+<p align="center">
+  <img src="./images/paper.png" alt="paper">
+</p>
+
+## 🟩 Positive
 
 The sharing of open-source foundation models brings a plethora of benefits to both the developer community and end-users. Primarily, these models offer the possibility to specify acceptability bounds for model behavior, which is crucial in contexts where there is access to sensitive data and interpersonal communication. Furthermore, by providing greater accessibility and customization, these models stimulate innovation, enabling developers to adjust models according to specific needs, including adapting them to proprietary datasets without privacy concerns. Such customization can drive advancements in various domains, such as improving support for different languages. Additionally, they accelerate scientific research, making it more accessible and customizable, which is essential for ensuring scientific reproducibility and enabling deeper investigation and external scrutiny. Promoting transparency is another significant aspect, allowing researchers, auditors, and journalists to examine base models more thoroughly, contributing to responsible innovation and public accountability. Lastly, sharing open-source foundation models helps mitigate monoculture and market concentration, favoring greater customization and reducing risks associated with cultural homogenization. This promotes healthier competition in downstream markets, aiding in reducing market concentration and risks linked to excessive reliance on a single model.
 
-## Negative
+## 🟥 Negative
 
 According to the article, analyzing the risks associated with open-source foundation models requires a systematic and comprehensive approach, considering various threat vectors. Among these risks, concerns related to biosafety, cybersecurity, and the potential for different forms of abuse stand out, such as voice cloning scams, targeted phishing, and the spread of misinformation. Additionally, there is concern about the misuse of these models for creating and disseminating non-consensual intimate images and material related to child sexual abuse. It is essential to contextualize these risks within the pre-existing landscape, assessing the challenges already present in society before the introduction of open-source foundation models, as well as the defenses currently in place against these risks. This understanding provides a conceptual basis for evaluating the additional risk associated with these models, determining whether they duplicate existing risks, introduce new risks, or if existing defenses are insufficient to address these new challenges. Anticipating the evolution of defenses against these emerging risks is equally important, considering the possibility of implementing new defense strategies or adapting existing ones to confront the increased global risk. However, it is crucial to recognize the uncertainties and underlying assumptions in this risk analysis, acknowledging that many past studies may have incomplete analyses in this regard.
 
-## Personal
+## 🟦 Personal
 
 Open-source foundational models represent a substantial advancement in the democratization of artificial intelligence and machine learning. Their accessibility provides opportunities for a wide range of developers, including researchers and entrepreneurs, aiming to create customized and innovative solutions. Transparency regarding biases present in the models is essential, requiring developers to have a comprehensive understanding and a commitment to mitigating these biases to ensure fairness and justice in their applications. Independence from private companies that charge for model usage not only reduces associated costs but also preserves data privacy, allowing for on-premises deployment of models without the need to send sensitive data to external servers. Additionally, the advantage of an extensive open-source community is the ability to identify and fix bugs in diverse and rapid ways, potentially resulting in more effective solutions than those offered by proprietary solutions.
 
-# Task 2 - Key Points on Training Data
+# 📘 Task 2 - Key Points on Training Data
 
 **Objective**: Extract and summarize 10 crucial insights about Training Data from Chapter 4 of Chip Huyen's book, __Designing Machine Learning Systems__.
 
@@ -84,14 +88,20 @@ These approaches are useful for handling datasets with label absence and can sig
 
 The chapter presents a series of strategies and considerations to ensure data quality in machine learning systems. From the selection of representative samples to tracking the origin of data, each discussed topic highlights the need for careful and systematic approaches in data handling. The understanding and proper application of these concepts not only improve model performance but also contribute to the reliability and interpretability of the results obtained. By implementing the practices suggested in this chapter, machine learning professionals will be better equipped to deal with the inherent challenges in data preparation and manipulation, thus ensuring the construction of more effective and reliable systems.
 
-# Task 3 - MLOps Zoomcamp Exploration
+# 🎥 Task 3 - MLOps Zoomcamp Exploration
 
 **Objective**: Explore and provide insights on Week 2 of the MLOps Zoomcamp course available on [Github](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main/02-experiment-tracking)
 
 <p align="center">
   <a href="https://github.com/DataTalksClub/mlops-zoomcamp/tree/main" target="_blank">
     <img src="https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/images/IMG_20230323_134059_927.png">
-  </a> Source: [MLOps Zoomcamp (2024)](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main)
+  </a> 
+</p>
+
+<p align="center">
+  <a href="https://github.com/DataTalksClub/mlops-zoomcamp/tree/main" target="_blank">
+    Source: MLOps Zoomcamp (2024)
+  </a> 
 </p>
 
 The course begins by presenting some important concepts within the area of Machine Learning Operations (MLOps) such as experiments and artifacts. Next, he delves deeper into these concepts, highlighting their importance and presenting the MLFlow tool. MLflow is an open-source platform for managing the end-to-end machine learning lifecycle. It's designed to help organizations streamline their machine learning workflows, from experimentation to production deployment, by providing tools for experiment tracking, model management, and collaboration. Below are insights into each aspect of MLflow:
