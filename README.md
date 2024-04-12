@@ -16,6 +16,12 @@ This repository aims to contain the activities carried out in the subject PPGEEC
 - **Resources:**
   - [Summary activity](./week_02/)
 
+### Week 3:
+- **Activity:** Explain primary concepts and theories, analyze theoretical implications, and offer a critical assessment of the approaches and theories discussed in the book __The Principles of Deep Learning Theory__.
+- **Activity:** Summarize the essential points from Chapter 5 of the book _Designing Machine Learning Systems_, by Chip Huyen, emphasizing the main strategies and techniques for feature engineering highlighted by the author. From your reading, distill the most critical best practices for feature engineering. Explain why these practices are important and how they contribute to the success of a machine learning model.
+- **Resources:**
+  - [Summary activity](./week_03/)
+
 ## 📖 References
 - 👨‍🏫 [Ivanovitch's repository](https://github.com/ivanovitchm/PPGEEC2318)
 - 📚 Godoy, Daniel. Deep Learning with PyTorch - Step by Step. [[Link]](https://pytorchstepbystep.com/)
